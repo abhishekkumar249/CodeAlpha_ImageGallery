@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Image Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Image Gallery</h1>
+
+<p>
+Modern UI Responsive Gallery with Filters and Lightbox
+</p>
+
+</header>
+
+<div class="filters">
+
+<button class="active"
+data-filter="all">
+All
+</button>
+
+<button data-filter="nature">
+Nature
+</button>
+
+<button data-filter="city">
+City
+</button>
+
+<button data-filter="animal">
+Animals
+</button>
+
+</div>
+
+<section class="gallery">
+
+<!-- Nature -->
+
+<div class="card nature">
+<img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb">
+</div>
+
+<div class="card nature">
+<img src="https://images.unsplash.com/photo-1448375240586-882707db888b">
+</div>
+
+<div class="card nature">
+<img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b">
+</div>
+
+<div class="card nature">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+</div>
+
+<!-- City -->
+
+<div class="card city">
+<img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df">
+</div>
+
+<div class="card city">
+<img src="https://images.unsplash.com/photo-1494526585095-c41746248156">
+</div>
+
+<div class="card city">
+<img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b">
+</div>
+
+<div class="card city">
+<img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000">
+</div>
+
+<!-- Animals -->
+
+<div class="card animal">
+<img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d">
+</div>
+
+<div class="card animal">
+<img src="https://images.unsplash.com/photo-1456926631375-92c8ce872def">
+</div>
+
+<div class="card animal">
+<img src="https://images.unsplash.com/photo-1517849845537-4d257902454a">
+</div>
+
+<div class="card animal">
+<img src="https://images.unsplash.com/photo-1516934024742-b461fba47600">
+</div>
+
+</section>
+
+<div class="lightbox">
+
+<button class="prev">
+❮
+</button>
+
+<img id="preview">
+
+<button class="next">
+❯
+</button>
+
+<span class="close">
+×
+</span>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
